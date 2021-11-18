@@ -13,5 +13,12 @@
   * Mengting Wan, Julian McAuley, "Item Recommendation on Monotonic Behavior Chains", in RecSys'18.  [bibtex]
   * Mengting Wan, Rishabh Misra, Ndapa Nakashole, Julian McAuley, "Fine-Grained Spoiler Detection from Large-Scale Review Corpora", in ACL'19. [bibtex]
 
-### Pipeline:
+### Pipeline
 ![image](https://user-images.githubusercontent.com/43796329/137572854-21320154-8d6c-4c68-835c-c7f3977970cd.png)
+
+### Project Replication Instruction:
+* Data Generation:
+ * Go to source link above download and unzip data
+ * Move the json into the data folder.
+ * Run the Dataset Truncate.ipynb notebook to generate smaller datasets (runtime: 20 minutes)
+ * Warnings! Do not push datasets to GitHub!
